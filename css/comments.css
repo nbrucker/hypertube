@@ -1,0 +1,175 @@
+.messages p {
+    color: #333;
+	text-align: left;
+}
+
+.stats {
+    width: 285px;
+    height: 500px;
+    background: #FFF;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.messages {
+    background: #fdfdfd;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.messages-list {
+	background: #fff;
+}
+
+.message {
+	border-bottom: 1px solid #EEE;
+	padding-left: 5%;
+	background: #fdfdfd;
+}
+
+.message-head {
+	display: flex;
+    justify-content: space-between;
+}
+
+.likes {
+    display: flex;
+}
+
+.likes img {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.likes img:hover {
+	opacity: 1;
+}
+
+.likes p {
+	display: inline-block;
+    padding-bottom: 0px;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+p.author {
+    font-weight: 700;
+    line-height: 1.5;
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+}
+
+p.date {
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+p.login {
+	display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+p.login:hover {
+    color: #555;
+}
+
+p.content {
+	font-weight: 300;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.message-action {
+	display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.comments-button {
+	color: #757575;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+	transition: .5s;
+}
+
+.comments-button:hover {
+	transition: .5s;
+	color: #4480f9;
+}
+
+.delete img{
+	width: 20px;
+	height:	20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.delete img:hover{
+	opacity: 1;
+}
+
+.hidden {
+	transition: .5;
+	display: none;
+}
+
+.message-form {
+    display: inline-flex;
+	border-bottom: 1px solid #EEE;
+	background: #fdfdfd;
+    padding: 20px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.message-form input{
+
+}
+
+.message-input {
+    width: 50%;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    border: none;
+    background: #f3f3f3;
+    resize: none;
+    border: 2px solid #c13c5499;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+}
+
+
+#comment-button{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    background: #c13c54;
+    color: #FFF;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+#comment-button:hover {
+	transition: 0.5s;
+	box-shadow: 0px 4px 10px -5px rgba(255,0,0,0.8);
+	transform: translateY(-2px);
+}

@@ -1,0 +1,55 @@
+.c-profile {
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    color: black;
+}
+
+.c-profile-desc {
+    margin-top: 20px;
+    background: #EEE;
+   	padding: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.l-profile-desc {
+	    margin: auto;
+    display: inline-block;
+}
+
+.c-profile p {
+	position: relative;
+    text-align: left;
+}
+
+.c-profile-picture {
+	border-radius: 50%;
+    margin-top: 40px;
+    width: 200px;
+	transition: 0.5s;
+}
+
+.c-profile-picture:hover {
+	transform: translateY(-4px);
+	box-shadow: 0px 10px 18px -5px rgba(0,0,0,0.30);
+}
+
+.c-profile-login {
+	text-align: left;
+    color: #666;
+    margin: 0;
+}
+
+.c-profile-name {
+	font-size: 24px;
+    margin: 0;
+	text-align: left;
+	color: #333;
+}
+
+.c-profile-lang {
+	color: #333;
+}
